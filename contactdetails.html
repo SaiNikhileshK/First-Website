@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Details</title>
+    </head>
+    <body>
+        <p>
+            You can reach out to me by emailing to <em>nikhileshkanchi@gmail.com</em>
+        </p>
+        <h3>Fill the form to message me</h3>
+        <form action="mailto:nikhileshkanchi@gmail.com" method="post" enctype="text/plain"><!--action attribute-> the action that form has to perform when submit is clicked
+                   method-> how the action is to be done| mailto: opens deafult emailing application
+                   the email-id entered| post is used to send the mail to the entered mail-id-->
+            <label>Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label>Email-ID:</label>
+            <input type="email" name="email">
+            <br>
+            <label>Enter your message here:</label>
+            <br>
+            <textarea name="message" rows="5" columns="3"></textarea>
+            <br>
+            <input type="submit">
+            <!--<br>
+            <label>Do you want to meet me?</label>
+            <input type="checkbox">
+            <br>
+            <label>Enter date and time:</label>
+            <input type="date">
+            <input type="time">
+            <input type="datetime">
+            <br>
+            <label>Can you specify your favourite colour?</label><br>
+            <input type="radio">
+            <input type="color">
+            <br>
+            <lable>Choose file to open</lable>
+            <input type="file">
+            <br>
+            <label>Rate this form</label>
+            <input type="range">-->
+
+        </form>
+    </body>
+</html>
