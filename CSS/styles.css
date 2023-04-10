@@ -1,0 +1,27 @@
+body{
+    background-color: #E5D9B6;
+}
+hr{
+    /*background-color: white;*/
+    /*border-style: first; first-> for top & bottom, left & right;
+      border-style: first second-> first for top & bottom, second for left & right;
+      border-style: first second third-> first for top, second for left & right, third for bottom;
+      border-style: first second third fourth-> first for top, second for right,third for bottom, fourth for left;
+    /*border-style: dotted none none; one method of styling*/
+    /*border-top-style: for top of border
+      border-bottom-style: for bottom of border
+      border-left-style: for left of border
+      border-right-style: for right of border*/
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #A4BE7B;
+    /*height: 0px;*/
+    width: 6%;
+}
+h1{
+    color: #285430;
+}
+h3{
+    color: rgb(95, 141, 78);
+}
